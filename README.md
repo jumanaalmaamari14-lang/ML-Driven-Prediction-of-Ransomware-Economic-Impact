@@ -34,9 +34,6 @@ The repository contains the complete data-processing, feature-engineering, machi
 
 📂 Repository Documentation
 
-The following section preserves the original project documentation and file descriptions while presenting them in a GitHub-friendly Markdown structure.
-
-ML-Driven-Prediction-of-Ransomware-Economic-Impact
 
 📂 Project Structure & File Descriptions
 This section documents the purpose of each major configuration file, source module, dataset, report, and model artifact used in the Explainable AI–Driven Ransomware Economic Impact Prediction System.
@@ -57,6 +54,7 @@ It defines:
 It allows you to modify system behaviour (data paths, sector assumptions, economic modelling parameters) without changing the source code, improving maintainability and experimental control.
 
 ###############
+
 ✅ Purpose of src/api.py
 This file implements the REST API layer for the ransomware economic impact prediction system using FastAPI. It transforms the trained ML model into a production-ready service, enabling real-time predictions through HTTP requests.
 
